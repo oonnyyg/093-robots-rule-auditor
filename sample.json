@@ -1,0 +1,9 @@
+{
+  "robots": "User-agent: Googlebot\nDisallow: /private\nAllow: /private/public$\nUser-agent: *\nDisallow: /tmp\n",
+  "queries": [
+    {"crawler": "googlebot", "path": "/private/x"},
+    {"crawler": "Googlebot", "path": "/private/public"},
+    {"crawler": "Bing", "path": "/tmp/a"},
+    {"crawler": "Bing", "path": "/robots.txt"}
+  ]
+}
